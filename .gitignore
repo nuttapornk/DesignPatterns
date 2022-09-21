@@ -1,3 +1,4 @@
+/.vs
 /src/.vs
 /src/DesignPatterns.Bridge/bin
 /src/DesignPatterns.Bridge/obj
@@ -5,3 +6,5 @@
 /src/DesignPatterns.State/obj
 /src/DesignPatterns.Strategy/bin
 /src/DesignPatterns.Strategy/obj
+/src/DesignPatterns.Memento/bin
+/src/DesignPatterns.Memento/obj

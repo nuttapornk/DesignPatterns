@@ -16,8 +16,14 @@ namespace DesignPatterns.Strategy.Services.Image.Storage
 
         public override void Store(string fileName)
         {
-            _compressor.Compress(fileName);
-            _filter.Processing(fileName);
+            if (_compressor != null)
+            {
+                _compressor.Compress(fileName);
+            }
+            if (_filter != null)
+            {
+                _filter.Processing(fileName);
+            }
             Console.WriteLine($"Store image {fileName} on cloud.");
         }
     }
