@@ -3,7 +3,7 @@
 ## Creational
 
 ## Structural
-### Bridge Pattern
+### - Bridge Pattern
 ```
 แยก Abstract ออกจากการ Imprement เพื่อให้ทั้งสองแยกการทำงานออกจากัน อย่างอิสระ
 เช่น Application Remote เครื่องใช้ไฟฟ้าใน มือถือ ที่ใช้ได้หลากหลายประเภทอุปกรณ์ หลายยี่ห้อ
@@ -12,7 +12,6 @@
 ```
 
 ## Behavioral
-
 ### - State Pattern
 ```
 งานที่ Object สามารถปรับเปลี่ยนสถานะได้หลายสถานะ อนาคตอาจมีเพิ่มเติมได้ 
